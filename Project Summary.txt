@@ -1,0 +1,9 @@
+Winter AQI–Weather Relationship Analysis (India)
+
+This project analyzes how meteorological factors influence PM2.5 concentrations during winter (15 Oct – 23 Dec 2025) using publicly available data from the Open-Meteo Air Quality and Weather APIs. The objective was explanatory analysis, not prediction — to understand which weather parameters drive winter air pollution and why.
+
+To eliminate seasonal confounding, the study focuses exclusively on winter and aggregates hourly data into daily values. Key weather variables such as temperature, relative humidity, wind speed, precipitation, and pressure were examined, along with lagged features to capture atmospheric persistence. Exploratory correlation analysis was followed by Ordinary Least Squares (OLS) regression, a standard and interpretable approach widely used in environmental studies.
+
+Results show that temperature is the dominant driver of winter PM2.5, with lower temperatures strongly associated with higher pollution levels, consistent with thermal inversion and atmospheric stagnation effects. Relative humidity also exhibits a significant secondary influence. In contrast, wind speed and rainfall show weak or context-dependent effects, highlighting the limited role of short-term dispersion during winter pollution episodes.
+
+Overall, the analysis demonstrates that meteorological stability, rather than isolated weather events, governs winter air quality variability, while also acknowledging the role of emissions and regional transport not captured in this study.
